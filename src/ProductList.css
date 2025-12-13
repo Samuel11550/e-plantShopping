@@ -107,6 +107,14 @@ body {
     margin-top: 10px;
 }
 
+.product-button.added {
+    background-color: #aaa; /* Gray background */
+    color: #333; /* Darker text */
+    cursor: not-allowed; /* Change cursor */
+    border: 1px solid #777;
+    pointer-events: none; /* Ensure no interaction */
+}
+
 .product-button:hover {
     background-color: #c0392b;
 }
