@@ -205,6 +205,24 @@ body {
 }
 /* ProductList.css */
 
+.cart-icon-wrapper {
+    position: relative; /* This is needed so the number stays on the icon */
+    display: inline-block;
+}
+
+.cart-count {
+    position: absolute;
+    top: -10px;        /* Adjusts position up */
+    right: -10px;      /* Adjusts position right */
+    background-color: #ff4d4d; /* Red circle */
+    color: white;      /* White number */
+    border-radius: 50%; /* Makes it round */
+    padding: 4px 8px;   /* Size of the circle */
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 100;
+}
+
 .product-button {
     background-color: #4CAF50; /* Green */
     border: none;
